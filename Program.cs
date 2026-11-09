@@ -1,15 +1,15 @@
-﻿Console.Write("Masukkan nama pelanggan:Guntur ");
+﻿Console.Write("Masukkan nama pelanggan:");
 string namaPelanggan = Console.ReadLine()!;
 
-Console.Write("Masukkan jumlah halaman:10");
+Console.Write("Masukkan jumlah halaman:");
 int jumlahHalaman = int.Parse(Console.ReadLine()!);
 
-Console.Write("Masukkan harga per halaman:500 ");
+Console.Write("Masukkan harga per halaman:");
 int hargaPerHalaman = int.Parse(Console.ReadLine()!);
 
 const int biayaAdministrasi = 2000;
 
-int subtotal = jumlahHalaman + hargaPerHalaman;
+int subtotal = jumlahHalaman * hargaPerHalaman;
 int totalBayar = subtotal + biayaAdministrasi;
 
 Console.WriteLine();
