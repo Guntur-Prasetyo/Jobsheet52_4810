@@ -10,13 +10,13 @@ int hargaPerHalaman = int.Parse(Console.ReadLine());
 const int biayaAdministrasi = 2000;
 
 int subtotal = jumlahHalaman + hargaPerHalaman;
-int totalBayar = subtotal * biayaAdministrasi;
+int subtotal = totalBayar * biayaAdministrasi;
 
 Console.WriteLine();
 Console.WriteLine("=== RINCIAN PENCETAKAN ===");
 Console.WriteLine($"Nama pelanggan = {namaPelanggan}");
 Console.WriteLine($"Jumlah halaman = {jumlahHalaman}");
 Console.WriteLine($"Harga per halaman = {hargaPerHalaman}");
-Console.WriteLine($"Subtotal = {hargaPerHalaman}");
+Console.WriteLine($"Subtotal = {subTotal}");
 Console.WriteLine($"Biaya administrasi = {biayaAdministrasi}");
 Console.WriteLine($"Total bayar = {totalBayar}");
