@@ -1,10 +1,10 @@
-﻿Console.Write("Masukkan nama pelanggan: ");
+﻿Console.Write("Masukkan nama pelanggan:Guntur ");
 string namaPelanggan = Console.ReadLine();
 
-Console.Write("Masukkan jumlah halaman: ");
+Console.Write("Masukkan jumlah halaman:10");
 int jumlahHalaman = int.Parse(Console.ReadLine());
 
-Console.Write("Masukkan harga per halaman: ");
+Console.Write("Masukkan harga per halaman:500 ");
 int hargaPerHalaman = int.Parse(Console.ReadLine());
 
 const int biayaAdministrasi = 2000;
